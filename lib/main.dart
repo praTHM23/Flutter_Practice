@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/pages/utils/routes.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'pages/home_page.dart';
@@ -25,8 +26,9 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.dark, primarySwatch: Colors.deepOrange),
       initialRoute: "/login", //userd for dark theme
       routes: {
-        "/": (context) => HomePage(),
-        "/login": (context) => LoginPage(),
+        "/":((context) => LoginPage()),
+        MyRoutes.homeRoute:((context) => HomePage()),
+        MyRoutes.loginRoute:((context) => LoginPage())
       },
     );
   }
