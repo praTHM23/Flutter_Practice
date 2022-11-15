@@ -8,8 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final ImageUrl =
-        "https://instagram.fbom38-1.fna.fbcdn.net/v/t51.2885-19/295994888_596841311846886_8934324382238651373_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbom38-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=8fk2mT49lmcAX-Tkmif&tn=wwMzxC6Z75Kg63J6&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfBt3js3nsK5gkf3QYKkKMSc4FUsmLKonfH5oOpZcy0zYw&oe=63719BEF&_nc_sid=1527a3";
+    final ImageUrl = "";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
