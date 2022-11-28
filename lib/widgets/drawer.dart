@@ -39,6 +39,9 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
+              onTap: (() {
+                Navigator.pushNamed(context, MyRoutes.profileRoute);
+              }),
               leading:
                   Icon(CupertinoIcons.profile_circled, color: Colors.black),
               title: Text(
